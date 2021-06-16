@@ -59,7 +59,8 @@ body {
     background: #fff;
     width: 350px;
     border-radius: 10px;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.25);
+    margin: 25px
 }
 
 .card__bg {
@@ -150,4 +151,63 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 1366px) {
+    /* Background images */
+    .bg-img--top {
+        transform: translate(-35%,-55%);
+    }
+
+    .bg-img--bottom {
+        transform: translate(29%, 70%);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    /* Background images */
+    .bg-img--top {
+        transform: translate(-55%,-50%);
+    }
+
+    .bg-img--bottom {
+        transform: translate(47%, 65%);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* Background images */
+    .bg-img--top {
+        transform: translate(-60%,-55%);
+    }
+
+    .bg-img--bottom {
+        transform: translate(58%, 65%);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* Background images */
+    .bg-img--top {
+        transform: translate(-75%,-55%);
+    }
+
+    .bg-img--bottom {
+        transform: translate(63%, 65%);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /* Background images */
+    .bg-img--top {
+        transform: translate(-75%,-62%);
+    }
+
+    .bg-img--bottom {
+        width: 700px;
+        height: auto;
+        transform: translate(68%, 50%);
+    }
 }
