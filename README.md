@@ -21,17 +21,14 @@ This code creates a user profile card. Made with HTML and CSS Flexbox.
 
 ### Screenshot
 
-Desktop 1440px
+Desktop
 
-![](/images/desktop_1440.png)
+![](/images/desktop.png)
 
-Desktop 1366px
 
-![](./images/desktop_1366.png)
+Mobile
 
-Mobile 375px
-
-![](./images/mobile_375.png)
+![](./images/mobile.png)
 
 
 ### Links
