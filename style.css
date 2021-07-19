@@ -20,7 +20,9 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background: var(--dark-cyan);
+    background: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg"), var(--dark-cyan);
+    background-repeat: no-repeat;
+    background-position: right 52vw bottom 33vh, left 48vw top 51vh;
 }
 
 /* Container */
@@ -108,7 +110,7 @@ body {
     color: var(--dark-grayish-blue);
 }
 
-.card__country {
+.card__location{
     font-size: 16px;
     color: var(--dark-grayish-blue);
     padding-bottom: 22px;
